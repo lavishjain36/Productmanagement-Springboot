@@ -33,6 +33,6 @@ public class ProductServiceimpl implements  ProductService{
 
     @Override
     public void deleteproduct(Long id) {
-        return productRepository.deleteById(id);
+         productRepository.deleteById(id);
     }
 }
